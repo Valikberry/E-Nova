@@ -1,0 +1,339 @@
+section {
+  width: 100%;
+  position: relative;
+}
+
+.max--width,
+.maxWidth__new {
+  width: 100%;
+  max-width: 90rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: black;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+}
+
+.link--overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-decoration: none;
+}
+
+.link--notOverlay {
+  position: relative;
+  z-index: 1;
+}
+
+h1,
+.large--text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+h2,
+.second--largeHeading {
+  font-size: 2.05rem;
+  line-height: 3rem;
+  color: #404040;
+  font-weight: bold;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.54rem;
+  line-height: 2.4rem;
+  color: #404040;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.54rem;
+  line-height: 2.4rem;
+  color: #404040;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 0.6rem;
+  line-height: 0.7rem;
+  color: #393939;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  font-weight: normal;
+  color: #404040;
+  color: #00002b;
+  color: #202020;
+  line-height: 2.7rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  color: #00002b;
+  color: #202020;
+}
+
+.text--center {
+  text-align: center;
+}
+
+.margin__top {
+  margin-top: 1.5rem;
+}
+
+.bold__text {
+  font-weight: bold;
+}
+
+.semi__bold {
+  font-weight: 600;
+}
+
+.block {
+  display: block;
+}
+
+.d-mobile {
+  display: none !important;
+}
+
+button {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.mt-4 {
+  margin-top: 4rem;
+}
+
+.mt-1{
+  margin-top: 1rem;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  padding: 0.8rem 4.1rem;
+  gap: 1rem;
+  height: 3.8rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: #30c672;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+
+.scrollToTop {
+  outline: none;
+  display: flex;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 0;
+  background: var(--secondary-bg-color);
+  font-size: 2rem;
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  z-index: 10;
+  font-weight: 900;
+}
+
+.scrollToTop i {
+  padding: 1rem 1.5rem;
+  color: #30c672;
+}
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  /* margin-top: 3rem; */
+}
+
+.breadcrumbs_unactive {
+  color: #a9a9a9;
+}
+
+.breadcrumbs .fa-greater-than {
+  color: #fba93c;
+  font-size: 1.5rem;
+}
+
+.text--highlight {
+  color: #fba93c;
+}
+
+#w-full {
+  width: 100%;
+}
+
+.flex--between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex--center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex--items{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.flex--column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Mobile table of content  */
+.mobile__tableOfContent {
+  border: 0.1rem solid gray;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.mobile__tableOfContentLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style-type: none;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+
+.mobile__tableOfContentLinks li {
+  position: relative;
+}
+.mobile__tableOfContentLinks li a {
+  /* color: blueviolet; */
+  font-size: 1.4rem;
+}
+.mobile__tableOfContentLinks li::before {
+  content: "";
+  position: absolute;
+  left: -3rem;
+  top: 1.2rem;
+  width: 2rem;
+  height: 0.1rem;
+  background-color: #000;
+}
+
+/* Mobile table of content  ends */
+
+/* now create two classes that will help for sticky sidebar */
+.font__small {
+  font-size: 1.2rem;
+  line-height: 1.25;
+  /* font-weight: normal; */
+}
+
+.font__smaller{
+  font-size: 1.3rem;
+}
+
+.isDisabled {
+  position: relative;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+input[type="number"] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+.scrollLeftRight__btn {
+  min-width: 3.5rem;
+  min-height: 3.5rem;
+  font-size: 1.2rem;
+  background-color: #ffaa33;
+  color: #000;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-bottom: 36px;
+}
+@media (max-width: 890px) {
+  .max--width,
+  .maxWidth__new {
+    width: 100%;
+    padding: 0 5%;
+  }
+}
+
+@media (max-width: 840px) {
+  h1,
+  .large--text {
+    font-size: 2.5rem;
+    line-height: 3.2rem;
+  }
+}
+
+@media (max-width: 805px) {
+  .btn {
+    margin-top: 2rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  .d-mobile {
+    display: block !important;
+  }
+
+  .breadcrumbs__link {
+    font-size: 1.2rem;
+  }
+
+  .breadcrumbs .fa-greater-than {
+    font-size: 1.2rem;
+  }
+}
